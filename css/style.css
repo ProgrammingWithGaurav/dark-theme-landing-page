@@ -4,7 +4,6 @@
 body {
     margin: 0;
     padding: 0;
-    background: #1C2230;
 }
 
 /* Navbar */
@@ -13,6 +12,9 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 20px;
+    background: #1C2230;
+    position: sticky;
+    top: 0;
 }
 
 /* Logo */
@@ -24,6 +26,7 @@ nav .logo {
 nav .logo img {
     width: 100%;
     height: 100%;
+    cursor: pointer;
 }
 
 /* Links */
@@ -35,4 +38,68 @@ nav .links a {
     font-weight: 300;
     padding: 20px;
     cursor: pointer;
+}
+
+/* Home Page */
+.home {
+    margin-top: -40px;
+    width: 100%;
+    height: 42rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #1C2230;
+    color: white;
+}
+
+
+
+/* Home Img */
+.home .home-img {
+    width: 40vw;
+    height: 60vh;
+}
+
+.home .home-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Home Heading */
+.home .home-heading {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 1.6rem;
+    width: 30vw;
+    text-align: center;
+}
+
+/* Home Description */
+.home .home-desc {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    width: 27vw;
+    margin-top: -10px;
+    font-size: 13px;
+    color: #CCCCCC;
+}
+
+/* Home Get Started Button */
+.home .get-started {
+    background: linear-gradient(106deg, #4EC5D3 0%, rgba(78, 197, 211, 0.995324) 0.01%, #40AED1 100%);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-weight: 551;
+    text-align: center;
+    font-size: 13px;
+    padding: 9px 43px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.home .get-started:hover,
+.get-started:active {
+    background: #8CDAE4;
 }

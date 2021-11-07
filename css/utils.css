@@ -1,0 +1,66 @@
+/* Colors */
+.color-white {
+    color: white;
+}
+
+.desc-color {
+    color: #CCCCCC;
+}
+
+.bg-color-bg {
+    background-color: #1C2230;
+}
+
+.card-bg {
+    background-color: #21293C;
+}
+
+
+/* Border */
+.br-50 {
+    border-radius: 50%;
+}
+
+/* Flexbox */
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+/* Fonts */
+.ff-sans-serif {
+    font-family: sans-serif;
+}
+
+/* POSITION */
+.p-sticky {
+    position: sticky;
+}
+
+.t-0 {
+    top: 0;
+}
+
+/* CURSOR */
+.c-pointer {
+    cursor: pointer;
+}

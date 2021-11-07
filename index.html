@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="css/utils.css">
   <link rel="stylesheet" href="css/style.css">
   <title>
     Frontend Mentor | Fylo landing page with dark theme and features grid
@@ -13,21 +14,21 @@
 
 <body>
   <!-- Navbar -->
-  <nav>
+  <nav class="p-sticky t-0 bg-color-bg d-flex justify-content-between align-items-center">
     <div class="logo">
       <a href="#home">
-        <img src="./images/logo.svg" alt="logo">
+        <img src="./images/logo.svg" class="c-pointer" alt="logo">
       </a>
     </div>
     <div class="links">
-      <a href="#features">Features</a>
-      <a href="#team">Team</a>
-      <a href="#sigin">Sigin In</a>
+      <a href="#features" class="desc-color">Features</a>
+      <a href="#team" class="desc-color">Team</a>
+      <a href="#sigin" class="desc-color">Sigin In</a>
     </div>
   </nav>
 
   <!-- Home -->
-  <div class="home" id="home">
+  <div class="home d-flex justify-content-center flex-column align-items-center" id="home">
     <div class="home-img">
       <img src="./images/illustration-intro.png" alt="">
     </div>
@@ -38,27 +39,27 @@
   </div>
 
   <!-- Features Section -->
-  <div class="features" id="features">
+  <div class="features bg-color-bg color-white" id="features">
     <!-- Features Cards -->
     <div class="features-cards">
       <div class="features-card">
         <img src="./images/icon-access-anywhere.svg" alt="access-anywere-img">
         <p class="features-card-title">Access your files, anywhere</p>
-        <p class="features-card-desc">The ability to use a smartphone, tablet, or computer to access your account means
+        <p class="features-card-desc desc-color">The ability to use a smartphone, tablet, or computer to access your account means
           your files follow you everywhere.</p>
       </div>
 
       <div class="features-card">
         <img src="./images/icon-security.svg" alt="access-anywere-img">
         <p class="features-card-title">Security you can trust</p>
-        <p class="features-card-desc">2-factor authentication and user-controlled encryption are just a couple of the
+        <p class="features-card-desc desc-color">2-factor authentication and user-controlled encryption are just a couple of the
           security features we allow to help secure your files.</p>
       </div>
 
       <div class="features-card">
         <img src="./images/icon-collaboration.svg" alt="access-anywere-img">
         <p class="features-card-title">Real-time collaboration</p>
-        <p class="features-card-desc">Securely share files and folders with friends, family and colleagues for live
+        <p class="features-card-desc desc-color">Securely share files and folders with friends, family and colleagues for live
           collaboration.
           No email attachments required.</p>
       </div>
@@ -66,31 +67,48 @@
       <div class="features-card">
         <img src="./images/icon-any-file.svg" alt="access-anywere-img">
         <p class="features-card-title">Store any type of file</p>
-        <p class="features-card-desc">Whether you're sharing holidays photos or work documents, Fylo has you covered
+        <p class="features-card-desc desc-color">Whether you're sharing holidays photos or work documents, Fylo has you covered
           allowing for all
           file types to be securely stored and shared.</p>
       </div>
 
     </div>
-    
+
     <!-- Productive Section -->
-    <div class="productive-section">
+    <div class="productive-section justify-content-around">
       <img src="./images/illustration-stay-productive.png" alt="productive-logo">
       <div>
-        <p class="title">Stay productive, wherever you are</p>
+        <p class="title color-white">Stay productive, wherever you are</p>
         <p class="desc">Never let location be an issue when accessing your files. Fylo has you covered for all of your
           file
           storage needs.</p>
         <p class="desc">Securely share files and folders with friends, family and colleagues for live collaboration. No
           email
           attachments required.</p>
-        <div class="how-it-work">
+        <div class="how-it-work d-flex justify-content-center align-items-center">
           <p>See how Fylo works</p>
           <img src="./images/icon-arrow.svg" alt="how-it-work-logo">
         </div>
       </div>
     </div>
-    
+
+  </div>
+
+  <!-- USERS Section -->
+  <div class="profiles bg-color-bg">
+    <div class="user-cards d-flex color-white">
+      <div class="user-card ff-sans-serif d-flex flex-column card-bg">
+        <p class="user-response">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled machine.
+        </p>
+        <div class="user-profile d-flex">
+          <img src="./images/profile-1.jpg" class="br-50" alt="profile-1">
+          <div class="user-info">
+            <p class="user-name">Satish Patel</p>
+            <p class="user-post">Founder & CEO, Huddle</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
 </body>

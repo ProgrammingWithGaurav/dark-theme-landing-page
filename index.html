@@ -15,7 +15,9 @@
   <!-- Navbar -->
   <nav>
     <div class="logo">
-      <img src="./images/logo.svg" alt="logo">
+      <a href="#home">
+        <img src="./images/logo.svg" alt="logo">
+      </a>
     </div>
     <div class="links">
       <a href="#features">Features</a>
@@ -25,14 +27,70 @@
   </nav>
 
   <!-- Home -->
-  <div class="home">
+  <div class="home" id="home">
     <div class="home-img">
       <img src="./images/illustration-intro.png" alt="">
     </div>
-    <p class="home-heading">All your files in one secure location, accessible anywhere.</p>
-    <p class="home-desc">Fylo stores all your most important files in one secure location. Access them wherever 
+    <p class="home-title">All your files in one secure location, accessible anywhere.</p>
+    <p class="home-desc">Fylo stores all your most important files in one secure location. Access them wherever
       you need, share and collaborate with friends family, and co-workers.</p>
-      <button class="get-started">Get Started</button>
+    <button class="get-started">Get Started</button>
+  </div>
+
+  <!-- Features Section -->
+  <div class="features" id="features">
+    <!-- Features Cards -->
+    <div class="features-cards">
+      <div class="features-card">
+        <img src="./images/icon-access-anywhere.svg" alt="access-anywere-img">
+        <p class="features-card-title">Access your files, anywhere</p>
+        <p class="features-card-desc">The ability to use a smartphone, tablet, or computer to access your account means
+          your files follow you everywhere.</p>
+      </div>
+
+      <div class="features-card">
+        <img src="./images/icon-security.svg" alt="access-anywere-img">
+        <p class="features-card-title">Security you can trust</p>
+        <p class="features-card-desc">2-factor authentication and user-controlled encryption are just a couple of the
+          security features we allow to help secure your files.</p>
+      </div>
+
+      <div class="features-card">
+        <img src="./images/icon-collaboration.svg" alt="access-anywere-img">
+        <p class="features-card-title">Real-time collaboration</p>
+        <p class="features-card-desc">Securely share files and folders with friends, family and colleagues for live
+          collaboration.
+          No email attachments required.</p>
+      </div>
+
+      <div class="features-card">
+        <img src="./images/icon-any-file.svg" alt="access-anywere-img">
+        <p class="features-card-title">Store any type of file</p>
+        <p class="features-card-desc">Whether you're sharing holidays photos or work documents, Fylo has you covered
+          allowing for all
+          file types to be securely stored and shared.</p>
+      </div>
+
+    </div>
+    
+    <!-- Productive Section -->
+    <div class="productive-section">
+      <img src="./images/illustration-stay-productive.png" alt="productive-logo">
+      <div>
+        <p class="title">Stay productive, wherever you are</p>
+        <p class="desc">Never let location be an issue when accessing your files. Fylo has you covered for all of your
+          file
+          storage needs.</p>
+        <p class="desc">Securely share files and folders with friends, family and colleagues for live collaboration. No
+          email
+          attachments required.</p>
+        <div class="how-it-work">
+          <p>See how Fylo works</p>
+          <img src="./images/icon-arrow.svg" alt="how-it-work-logo">
+        </div>
+      </div>
+    </div>
+    
   </div>
 
 </body>

@@ -4,6 +4,7 @@
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 html {
@@ -107,7 +108,7 @@ nav .links a {
 
 /* Features Cards */
 .features-cards {
-     padding: 0 100px;
+    padding: 0 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -128,7 +129,7 @@ nav .links a {
 
 .features-card .features-card-title {
     font-size: 15px;
-    font-weight: 600;    
+    font-weight: 600;
 }
 
 .features-card .features-card-desc {
@@ -159,7 +160,7 @@ nav .links a {
 
 .features .productive-section div .title {
     font-weight: 900;
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 50px;
     width: 70%;
 }
@@ -188,12 +189,14 @@ nav .links a {
     height: 15px;
 }
 
-.features .productive-section div .how-it-work:hover, .how-it-work:active {
+.features .productive-section div .how-it-work:hover,
+.how-it-work:active {
     color: white;
     border-color: white;
 }
 
-.how-it-work:hover, .how-it-work:active img{
+.how-it-work:hover,
+.how-it-work:active img {
     filter: grayscale(1) invert(0%);
 }
 
@@ -201,16 +204,57 @@ nav .links a {
 .profiles {
     width: 100%;
     height: auto;
-    margin-top: -20px;
+    margin-top: 0px;
     padding: 10px;
+}
+
+.user-cards {
+    margin-top: 5rem;
 }
 
 .user-card {
     padding: 5px 20px;
+    margin: 4px 15px;
     width: 24rem;
-    box-shadow: 0 0 8px 2px rgba(0,0,0,0.1);
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
+
+.user-card:first-child::after {
+    position: absolute;
+    background: url(../images/bg-quotes.png);
+    z-index: 4;
+    width: 35px;
+    height: 30px;
+    z-index: 0;
+    content: '';
+    background-size: cover;
+    top: -21px;
+    left: -8px;
+}
+
 
 .user-card .user-response {
     font-size: 15px;
+}
+
+.user-card .user-profile img {
+    width: 25px;
+    height: 25px;
+}
+
+.user-card .user-profile .user-name {
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.user-card .user-profile .user-post {
+    color: #CCCCCC;
+    font-size: 8px;
+    margin-top: 3px;
+}
+
+.user-info {
+    margin-left: 10px;
 }

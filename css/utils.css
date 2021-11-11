@@ -60,3 +60,8 @@
 .c-pointer {
     cursor: pointer;
 }
+
+/* Text Decoratin For Anchor Tags */
+.text-decoration-none {
+    text-decoration: none;
+}

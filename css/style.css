@@ -15,6 +15,7 @@ html {
 /* Navbar */
 nav {
     padding: 20px 20px;
+    z-index: 2;
 }
 
 /* Logo */
@@ -30,11 +31,15 @@ nav .logo img {
 
 /* Links */
 nav .links a {
-    text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-size: 13px;
     font-weight: 300;
     padding: 20px;
+}
+
+nav .links a:hover, a:active {
+    color: white;
+    font-weight: 600;
 }
 
 /* Home Page */
@@ -215,7 +220,8 @@ nav .links a {
 .user-card {
     padding: 5px 20px;
     margin: 4px 15px;
-    width: 24rem;
+    border-radius: 4px;
+    width: 27vw;
     box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
     position: relative;
 }
@@ -327,7 +333,7 @@ nav .links a {
 
 /* Footer Section */
 .footer {
-    margin-top: -3rem;
+    margin-top: -5rem;
     width: 100%;
     height: 50vh;
     background: #0C1524;

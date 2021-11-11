@@ -14,7 +14,7 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="p-sticky t-0 bg-color-bg d-flex justify-content-between align-items-center">
+  <nav class="p-sticky t-0 d-flex justify-content-between align-items-center">
     <div class="logo">
       <a href="#home">
         <img src="./images/logo.svg" class="c-pointer" alt="logo">
@@ -23,7 +23,7 @@
     <div class="links">
       <a href="#features" class="desc-color">Features</a>
       <a href="#team" class="desc-color">Team</a>
-      <a href="#sigin" class="desc-color">Sigin In</a>
+      <a href="#signin" class="desc-color">Sigin In</a>
     </div>
   </nav>
 
@@ -39,7 +39,7 @@
   </div>
 
   <!-- Features Section -->
-  <div class="features bg-color-bg color-white" id="features">
+  <div class="features color-white" id="features">
     <!-- Features Cards -->
     <div class="features-cards">
       <div class="features-card">
@@ -99,7 +99,7 @@
   </div>
 
   <!-- USERS Section -->
-  <div class="profiles bg-color-bg">
+  <div class="profiles bg-color-bg" id="team">
     <div class="user-cards d-flex color-white">
       <div class="user-card ff-sans-serif d-flex flex-column card-bg">
         <p class="user-response">Fylo has improved our team productivity by an order of magnitude. Since making the
@@ -128,7 +128,8 @@
       </div>
 
       <div class="user-card ff-sans-serif d-flex flex-column card-bg">
-        <p class="user-response">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine. </p>
+        <p class="user-response">Fylo has improved our team productivity by an order of magnitude. Since making the
+          switch our team has become a well-oiled collaboration machine. </p>
         <div class="user-profile d-flex align-items-center">
           <img src="./images/profile-2.jpg" class="br-50" alt="profile-1">
           <div class="user-info d-flex flex-column">
@@ -137,8 +138,26 @@
           </div>
         </div>
       </div>
-
     </div>
+  </div>
+
+  <!-- Bottom Section -->
+  <div class="bottom color-white">
+    <!-- signup box -->
+    <div class="signup d-flex flex-column justify-content-center align-items-center">
+      <p class="signup-title">Get early access today</p>
+      <p class="signup-desc">It only takes a minute to sign up and our free starter tier is extremely generous. If you
+        have any questions, our support team would be happy to help you.</p>
+      <form class="d-flex justify-content-between align-items-center">
+        <input type="text" class="signup-input" placeholder="email@example.com">
+        <button class="submit-buttom">Get Started For Free</button>
+      </form>
+    </div>
+
+  </div>
+
+  <!-- Fylo Footer  -->
+  <div class="footer"></div>
   </div>
 
 </body>

@@ -65,3 +65,12 @@
 .text-decoration-none {
     text-decoration: none;
 }
+
+/* display */
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}

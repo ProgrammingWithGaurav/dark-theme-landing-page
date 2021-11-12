@@ -1,1 +1,33 @@
 /* Making site resonsive on mobile screen */
+@media screen and (max-width: 680px) {
+
+    /* Home Page */
+    .home {
+        margin-top: 0;
+        width: 115%;
+    }
+
+    .home .home-img img {
+        margin-top: 2rem;
+        width: 114%;
+        height: 82%;
+    }
+
+    .home .home-title {
+        width: 80vw;
+    }
+
+    .home .home-desc {
+        width: 75vw;
+    }
+
+    /* Productive Section */
+    .features .productive-section img {
+        width: 30rem;
+        height: 27rem;
+    }
+
+    .features .productive-section {
+        width: 100%;
+    }
+}

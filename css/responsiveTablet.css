@@ -72,18 +72,25 @@
         width: 84%;
     }
 
-    .footer {
-        width: 100vw;
-        height: auto;
-        flex-wrap: wrap;
-    }
-
-    .footer div {
-        width: 100%;
-    }
-
+    /* Footer Section */
     .footer {
         padding-top: 10rem;
+    }
+
+    /* Footer 1 */
+    .footer-1 img {
+        width: 79px;
+        height: 30px;
+    }
+
+    .footer-1 .location p {
+        font-size: 11px;
+        line-height: 17px;
+    }
+
+    /* Footer 2 */
+    .footer-2 p {
+        font-size: 11px;
     }
 
 }

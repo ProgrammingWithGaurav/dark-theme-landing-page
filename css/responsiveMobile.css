@@ -63,5 +63,21 @@
     /* footer */
     .footer {
         width: 117%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .footer div {
+        width: 90%;
+    }
+
+    .footer-5 {
+        margin-top: 1rem;
+        justify-content: start;
+        margin-bottom: 2rem;
+    }
+
+    .footer-5 i:first-child {
+        padding: 11px 13px;
     }
 }

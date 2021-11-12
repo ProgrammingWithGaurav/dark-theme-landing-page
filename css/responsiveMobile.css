@@ -10,7 +10,7 @@
     .home .home-img img {
         margin-top: 2rem;
         width: 114%;
-        height: 82%;
+        height: 76%;
     }
 
     .home .home-title {
@@ -23,11 +23,45 @@
 
     /* Productive Section */
     .features .productive-section img {
-        width: 30rem;
-        height: 27rem;
+        width: 25rem;
+        height: 22rem;
     }
 
     .features .productive-section {
         width: 100%;
+    }
+
+    .features-cards {
+        padding: 0;
+        width: 110vw;
+    }
+
+    /* User Profiles Cards */
+    .user-cards {
+        width: 116%;
+    }
+
+    /* Signup Section */
+    .signup form {
+        width: 89%;
+        flex-direction: column;
+    }
+
+    .signup form button {
+        font-size: 14px;
+        padding: 10px 30px;
+        width: 76%;
+        margin-top: 10px;
+        font-weight: 600;
+    }
+
+    /* Bottom Section */
+    .bottom {
+        width: 120%;
+    }
+
+    /* footer */
+    .footer {
+        width: 117%;
     }
 }

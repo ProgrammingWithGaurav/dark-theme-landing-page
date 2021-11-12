@@ -278,10 +278,11 @@ a:active {
 
 /* SIGNUP Box  */
 .signup {
-    width: 60vw;
+    width: 65vw;
     height: 12rem;
     background: #1C2230;
     z-index: 2;
+    padding: 20px 0;
     border-radius: 10px;
     box-shadow: 2px 1px 3px 2px #141820;
     margin-bottom: -5rem;
@@ -429,6 +430,7 @@ a:active {
     border-radius: 50px;
     padding: 10px;
     cursor: pointer;
+    margin: 0 5px;
 }
 
 .footer-5 i:first-child {

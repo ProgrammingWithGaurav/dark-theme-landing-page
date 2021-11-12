@@ -1,0 +1,89 @@
+/* Making site responsive on tablet screen */
+@media screen and (max-width: 1030px) {
+
+    /* Home Page */
+    .home .home-title {
+        width: 65vw;
+    }
+
+    .home .home-desc {
+        width: 50vw;
+    }
+
+    .home .home-img {
+        width: 60vw;
+        height: 60vh;
+    }
+
+    /* Features Cards */
+
+    .features-card {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 20rem;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        margin: 20px auto;
+    }
+
+    .features-card img {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .features-card .features-card-title {
+        font-size: 24px;
+    }
+
+    .features-card .features-card-desc {
+        font-size: 15px;
+    }
+
+    /* Stay Productive Section */
+    .features .productive-section {
+        flex-wrap: wrap;
+    }
+
+    .features .productive-section img {
+        width: 34rem;
+    }
+
+    .features .productive-section div .title {
+        width: 100%;
+    }
+
+    .features .productive-section div .desc {
+        width: 100%;
+    }
+
+    /* User Profile Section */
+    .user-cards {
+        flex-wrap: wrap;
+    }
+
+    .user-card {
+        width: 90vw;
+    }
+
+    /* Signup */
+    .signup {
+        width: 84%;
+    }
+
+    .footer {
+        width: 100vw;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .footer div {
+        width: 100%;
+    }
+
+    .footer {
+        padding-top: 10rem;
+    }
+
+}

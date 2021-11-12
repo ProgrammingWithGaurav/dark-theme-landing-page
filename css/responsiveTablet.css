@@ -93,4 +93,16 @@
         font-size: 11px;
     }
 
+    /* Footer 5 */
+    .footer-5 i:first-child,
+    .footer-5 i,
+    .footer-5 i:last-child {
+        font-size: 0.7rem;
+        border-width: 1px;
+    }
+
+    .footer-5 i:first-child {
+        padding: 11px 14px;
+    }
+
 }
